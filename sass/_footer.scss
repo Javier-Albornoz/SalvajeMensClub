@@ -1,0 +1,78 @@
+.footer{
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    height: 351px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-size: 14px;
+    a{
+        color: #fff;
+        text-decoration: none;
+    }
+    .enlacesRedes{
+        display: flex;
+        flex-direction: row;
+        .redes{
+            list-style: none;
+            text-decoration: none;
+            display: flex;
+            flex-direction: row;
+            .red{
+                height: 45px;
+                width: 45px;
+                background: rgb(255, 255, 255);
+                border-radius: 50%;
+                margin-left: 1rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                a{
+                    text-decoration: none;
+                    img{
+                        background: #fff;
+                    }
+                }
+            }
+        }
+    }
+    .footerContainer{
+        display: flex;
+        justify-content: space-between;
+        .footerInput{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 35%;
+            .inputSpam{
+                font-size: 12px;
+                background-color: #646464;
+                border: #646464;
+                color: #ffffff;
+                line-height: 14px;
+            }
+        }
+    }
+    .brandLogo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .btnReserva{
+        border: none;
+        position: fixed;
+        bottom: 55px; right: 52px;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        font: 20px 'Open Sans', sans-serif;
+        height: 50px;
+        width: 253px;
+        border-radius: 50px;
+        color: #1C7943;
+        img{
+            margin-left: 10%;
+            margin-top: 2px;
+        }
+    }
+}

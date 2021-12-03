@@ -1,0 +1,799 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav1 {
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+  top: 0px;
+  height: 37px;
+  width: 100%;
+  background-color: #bdbdbd;
+  color: black;
+}
+.nav1 .mje {
+  display: flex;
+  justify-content: start;
+  text-align: center;
+  flex-flow: wrap;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  font-family: "Open Sans", sans-serif;
+  align-items: center;
+  width: 60%;
+}
+.nav1 .mje p {
+  margin-bottom: 0;
+}
+.nav1 .enlacesRedes {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  width: 40%;
+  padding-left: 100px;
+}
+.nav1 .enlacesRedes a {
+  padding-left: 30px;
+}
+
+.nav-item {
+  font-size: 20px;
+}
+
+.navbar-brand {
+  padding-left: 100px;
+  width: 50%;
+}
+
+.navbar-nav {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.collapse {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.pt-4 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 38px;
+  font-weight: bold;
+  font-style: normal;
+  line-height: 38px;
+  color: black;
+}
+
+.servicios {
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  line-height: 33px;
+  align-items: center;
+  flex-flow: wrap;
+  color: #000000;
+}
+
+.contenedorNosotros {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contenedorNos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
+  justify-content: center;
+  width: 50%;
+}
+
+.btn1 {
+  font-size: 16px;
+  width: 180px;
+  height: 44px;
+}
+.btn1 a {
+  text-decoration: none;
+  color: white;
+}
+
+.pPresentacion {
+  width: 384px;
+  height: 275px;
+  line-height: 27px;
+}
+
+.contenedorImg {
+  width: 50%;
+}
+
+.nuestrosClientes {
+  display: flex;
+  flex-direction: column;
+}
+
+.cardsContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: wrap;
+  max-width: 100%;
+}
+
+.cardClient {
+  display: flex;
+  flex-direction: column;
+  width: 283px;
+  height: 284px;
+  background-color: #ffffff;
+  border: 0.5px solid #000000;
+  border-radius: 10px;
+  justify-content: flex-start;
+}
+.cardClient p {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+}
+.cardClient h3 {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 16px;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+}
+.cardClient .nameStar {
+  display: flex;
+  flex-direction: column;
+  padding-left: 3%;
+}
+.cardClient .cardContent {
+  display: flex;
+  align-items: flex-start;
+  padding-left: 5%;
+}
+
+.footer {
+  background-color: black;
+  color: #ffffff;
+  height: 351px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  font-size: 14px;
+}
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer .enlacesRedes {
+  display: flex;
+  flex-direction: row;
+}
+.footer .enlacesRedes .redes {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+}
+.footer .enlacesRedes .redes .red {
+  height: 45px;
+  width: 45px;
+  background: white;
+  border-radius: 50%;
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer .enlacesRedes .redes .red a {
+  text-decoration: none;
+}
+.footer .enlacesRedes .redes .red a img {
+  background: #fff;
+}
+.footer .footerContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.footer .footerContainer .footerInput {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 35%;
+}
+.footer .footerContainer .footerInput .inputSpam {
+  font-size: 12px;
+  background-color: #646464;
+  border: #646464;
+  color: #ffffff;
+  line-height: 14px;
+}
+.footer .brandLogo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer .btnReserva {
+  border: none;
+  position: fixed;
+  bottom: 55px;
+  right: 52px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  font: 20px "Open Sans", sans-serif;
+  height: 50px;
+  width: 253px;
+  border-radius: 50px;
+  color: #1C7943;
+}
+.footer .btnReserva img {
+  margin-left: 10%;
+  margin-top: 2px;
+}
+
+.texto {
+  font-family: "Open Sans", sans-serif;
+}
+
+.textoNegrita {
+  font-weight: bold;
+}
+
+.nuestraHistoria h1 {
+  color: #000;
+}
+.nuestraHistoria .seccionVideo {
+  display: flex;
+  flex-direction: row;
+}
+.nuestraHistoria .seccionVideo .video {
+  width: 50%;
+}
+.nuestraHistoria .seccionVideo .textoVideo {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  width: 50%;
+  padding: 2.5rem;
+}
+.nuestraHistoria .seccionVideo .textoVideo hr {
+  border: #000 1px solid;
+}
+
+.seccionImagen {
+  display: flex;
+  flex-direction: row;
+}
+.seccionImagen .contenedorTexto {
+  padding: 2rem;
+  flex-direction: column;
+  font-size: 1rem;
+}
+.seccionImagen .contenedorTexto .texto-1 {
+  display: flex;
+  align-items: center;
+  height: 50%;
+  padding: 5%;
+}
+.seccionImagen .contenedorTexto .texto-2 {
+  display: flex;
+  align-items: center;
+  background-color: #000;
+  height: 50%;
+  padding: 5%;
+  color: #fff;
+}
+
+.seccionMapa .textoMapa {
+  padding: 7%;
+  font-size: 1.2rem;
+}
+.seccionMapa .contenedorMapa {
+  padding: 7%;
+}
+.seccionMapa .textoUbicacion {
+  font-size: 1.5rem;
+  padding: 4% 30% 4% 30%;
+}
+.seccionMapa .textoUbicacion hr {
+  border: #000 1px solid;
+}
+.seccionMapa .textoUbicacion .textoJoin {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.seccionMapa .textoUbicacion .textoJoin p {
+  margin-bottom: 0rem;
+}
+.seccionMapa .textoUbicacion .textoJoin hr {
+  width: 100%;
+}
+
+.seccionInspiracion {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.seccionInspiracion img {
+  width: 49%;
+}
+.seccionInspiracion .textoInspiracion {
+  background-color: #000;
+  color: #fff;
+  width: 49%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.seccionInspiracion .textoInspiracion .textoNegrita {
+  font-size: 2.1rem;
+}
+
+.navBuscador .navBrand {
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  text-decoration: none;
+  white-space: nowrap;
+  padding-left: 100px;
+  width: 50%;
+}
+
+.filtrosNav button {
+  background-color: #C4C4C4;
+  border: none;
+  border-radius: 10px;
+  font-size: 10px;
+  font-weight: bold;
+  margin: 0% 1%;
+  padding: 6px 8px 6px 8px;
+}
+
+.seccionTitulo {
+  font-family: "Open Sans", sans-serif;
+  font-size: 38px;
+  color: #000;
+}
+.seccionTitulo .tituloPrincipal {
+  font-weight: bold;
+}
+.seccionTitulo hr {
+  border: #000 1px solid;
+}
+.seccionTitulo p {
+  font-family: "Playfair Display", serif;
+  font-size: 16px;
+}
+
+.seccionBuscador {
+  font-family: "Open Sans", sans-serif;
+  margin: 1%;
+}
+.seccionBuscador .buscador {
+  margin: 0% 25%;
+}
+.seccionBuscador .buscador .filtros {
+  padding: 4% 0% 4% 0%;
+}
+.seccionBuscador .buscador .filtros button {
+  background-color: #C4C4C4;
+  border: none;
+  border-radius: 10px;
+  font-size: 10px;
+  font-weight: bold;
+  margin: 0% 1%;
+  padding: 6px 8px 6px 8px;
+}
+
+.seccionCardsPost {
+  border: none;
+}
+.seccionCardsPost #cards {
+  margin: 0% 10% 15% 10%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.seccionCardsPost #cards .card {
+  border: none;
+  width: 486px;
+  height: 684px;
+  margin: 2% 1% 2% 1%;
+  overflow: hidden;
+}
+.seccionCardsPost #cards .card .cardFoto {
+  height: 60%;
+  overflow: hidden;
+}
+.seccionCardsPost #cards .card .cardFoto .img {
+  height: 100%;
+}
+.seccionCardsPost #cards .card .cardFooter {
+  height: 40%;
+  margin: 0%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.seccionCardsPost #cards .card .cardFooter .cardDescripcion {
+  margin: 5% 5% 0% 5%;
+  height: 75%;
+}
+.seccionCardsPost #cards .card .cardFooter .cardDescripcion .cardTitulo {
+  font-family: "Playfair Display", serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+.seccionCardsPost #cards .card .cardFooter .cardDescripcion .cardFecha {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+.seccionCardsPost #cards .card .cardFooter .cardDescripcion .cardResumen {
+  font-family: "Playfair Display", serif;
+  font-size: 16px;
+}
+.seccionCardsPost #cards .card .cardFooter .cardBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  width: 180px;
+  height: 44px;
+  border: none;
+  border-radius: 10px;
+  background-color: #000;
+  color: #fff;
+}
+
+.seccionPost {
+  border: none;
+}
+.seccionPost #post {
+  margin: 0% 20% 7.5% 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #000;
+}
+.seccionPost #post .postTitulo {
+  display: flex;
+  justify-content: center;
+}
+.seccionPost #post .postTitulo h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 38px;
+  font-weight: bold;
+  width: 80%;
+  text-align: center;
+  margin-top: 2%;
+}
+.seccionPost #post .postImagenPrincipal {
+  overflow: hidden;
+}
+.seccionPost #post .postTexto {
+  font-family: "Playfair Display", serif;
+  font-size: 16px;
+}
+.seccionPost #post .postLetra::first-letter {
+  font-size: 38px;
+  text-transform: capitalize;
+}
+.seccionPost #post .postTextoDividido {
+  display: flex;
+  flex-direction: row;
+}
+.seccionPost #post .postTextoDividido img {
+  width: 50%;
+}
+.seccionPost #post .postTextoDividido .postTexto {
+  width: 50%;
+  margin-left: 5%;
+  display: flex;
+  align-items: center;
+}
+.seccionPost #post .postImagen {
+  overflow: hidden;
+}
+.seccionPost #post .postSubTitulo {
+  display: flex;
+  justify-content: flex-start;
+}
+.seccionPost #post .postTextoFinal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.seccionPost #post .postTextoFinal hr {
+  width: 70%;
+  border: #000 1px solid;
+}
+.seccionPost #post .postTextoFinal p {
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  font-weight: bold;
+  width: 50%;
+  text-align: center;
+}
+
+.seccionContacto {
+  display: flex;
+  flex-direction: row;
+}
+.seccionContacto .listaContacto {
+  background-color: #111111;
+  width: 50%;
+  min-height: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.seccionContacto .listaContacto ul {
+  margin: 0px;
+  padding: 0px;
+}
+.seccionContacto .listaContacto .contactos {
+  list-style: none;
+  color: #fff;
+}
+.seccionContacto .listaContacto .contactos .tarjetaContacto {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.seccionContacto .listaContacto .contactos .contacto {
+  height: 45px;
+  width: 45px;
+  background: white;
+  border-radius: 50%;
+  margin-left: 1rem;
+  margin-right: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.seccionContacto .listaContacto .contactos .contacto a {
+  text-decoration: none;
+}
+.seccionContacto .listaContacto .contactos .contacto a img {
+  background: #fff;
+}
+.seccionContacto .formulario {
+  font-family: "Open Sans", sans-serif;
+  background-color: #ffffff;
+  color: #000;
+  width: 50%;
+  height: 100%;
+  min-height: 650px;
+  margin: 3rem;
+}
+.seccionContacto .formulario .formTitulo {
+  font-size: 38px;
+  font-weight: bolder;
+}
+.seccionContacto .formulario .formSubTitulo {
+  font-size: 20px;
+}
+.seccionContacto .formulario form {
+  width: 85%;
+}
+.seccionContacto .formulario form .contenedorBoton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.seccionContacto .formulario form .contenedorBoton button {
+  width: 50%;
+  background-color: #000;
+  color: #fff;
+  padding: 1.5% 5% 1.5% 5%;
+  border-radius: 10px;
+  border: none;
+}
+
+.seccionImagenPortada img {
+  width: 100%;
+}
+
+.seccionAcordeon {
+  font-family: "Open Sans", sans-serif;
+  /*.accordion{
+      margin-top: 3%;
+      margin-bottom: 10%;
+      .accordion-item{
+          margin-bottom: 2%;
+          border: none;
+          .accordion-header{
+
+              background-color: #242324;
+              display: flex;
+              flex-direction: row;
+              justify-content: center;
+              align-items: center;
+              color: #fff;
+              height: 192px;
+
+
+              p{
+                  width: 95%;
+                  text-align: center;
+                  cursor: pointer;
+              }
+
+              button{
+                  width: 5%;
+                  background-color: transparent;
+                  color: #fff;
+              }
+          }
+          .aco1{
+              background-image: url("/imagenes/servicio_01_nails.png");
+              background-repeat: no-repeat;
+          }
+      }
+  }*/
+}
+.seccionAcordeon .titulo {
+  font-size: 38px;
+  font-weight: bolder;
+  margin-top: 3%;
+}
+.seccionAcordeon .texto {
+  font-size: 20px;
+  margin-top: 2%;
+}
+.seccionAcordeon #acordeon .acordeonItem {
+  /*Imagenes de los acordeones*/
+}
+.seccionAcordeon #acordeon .acordeonItem .headerImg1 {
+  background-color: #242324;
+  background-image: url("/imagenes/servicio_01_nails.png");
+  background-repeat: no-repeat;
+}
+.seccionAcordeon #acordeon .acordeonItem .headerImg2 {
+  background-color: #242324;
+  background-image: url("/imagenes/servicio_02_barberia.png");
+  background-repeat: no-repeat;
+}
+.seccionAcordeon #acordeon .acordeonItem .headerImg3 {
+  background-color: #242324;
+  background-image: url("/imagenes/servicio_03_color.png");
+  background-repeat: no-repeat;
+}
+.seccionAcordeon #acordeon .acordeonItem .headerImg4 {
+  background-color: #242324;
+  background-image: url("/imagenes/servicio_04_experiencias.png");
+  background-repeat: no-repeat;
+}
+.seccionAcordeon #acordeon .acordeonItem .acordeonHeader {
+  height: 192px;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3%;
+}
+.seccionAcordeon #acordeon .acordeonItem .acordeonContenido {
+  /*El display de la clase ".acoContenido" oculta las cards de las secciones*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 8rem;
+}
+.seccionAcordeon #acordeon .acordeonItem .acordeonContenido .cardServicio {
+  max-height: 376;
+  max-width: 50%;
+  margin-bottom: 2%;
+  overflow: hidden;
+}
+.seccionAcordeon #acordeon .acordeonItem .acordeonContenido .cardServicio .cardHeader {
+  /*Imagenes de las cards*/
+}
+.seccionAcordeon #acordeon .acordeonItem .acordeonContenido .cardServicio .cardHeader .cardImage {
+  width: 588px;
+  height: 168px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.seccionAcordeon #acordeon .acordeonItem .acordeonContenido .cardServicio .cardHeader .nail1 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/imagenes/servicio_01_nails_01.png");
+}
+.seccionAcordeon #acordeon .acordeonItem .acordeonContenido .cardServicio .cardHeader .nail2 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/imagenes/servicio_01_nails_02.png");
+}
+.seccionAcordeon #acordeon .acordeonItem .acordeonContenido .cardServicio .cardHeader .nail3 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/imagenes/servicio_01_nails_03.png");
+}
+.seccionAcordeon #acordeon .acordeonItem .acordeonContenido .cardServicio .cardHeader .nail4 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/imagenes/servicio_01_nails_04.png");
+}
+.seccionAcordeon #acordeon .acordeonItem .acordeonContenido .cardServicio .cardHeader .nail5 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/imagenes/servicio_01_nails_05.png");
+}
+.seccionAcordeon #acordeon .acordeonItem .acordeonContenido .cardServicio .cardHeader .nail6 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/imagenes/servicio_01_nails_06.png");
+}
+.seccionAcordeon #acordeon .acordeonItem .acordeonContenido .cardServicio .cardHeader .nail7 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/imagenes/servicio_01_nails_07.png");
+}
+.seccionAcordeon #acordeon .acordeonItem .acordeonContenido .cardServicio .cardHeader .nail8 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/imagenes/servicio_01_nails_08.png");
+}
+.seccionAcordeon #acordeon .acordeonItem .acordeonContenido .cardServicio .cardHeader .nail8 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/imagenes/servicio_01_nails_08.png");
+}
+.seccionAcordeon #acordeon .acordeonItem .acordeonContenido .cardServicio .cardHeader .beard1 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/imagenes/servicio_02_barberia_01.png");
+}
+.seccionAcordeon #acordeon .acordeonItem .acordeonContenido .cardServicio .cardHeader .beard2 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/imagenes/servicio_02_barberia_02.png");
+}
+.seccionAcordeon #acordeon .acordeonItem .acordeonContenido .cardServicio .cardHeader .beard3 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/imagenes/servicio_02_barberia_03.png");
+}
+.seccionAcordeon #acordeon .acordeonItem .acordeonContenido .cardServicio .cardHeader .beard4 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/imagenes/servicio_02_barberia_04.png");
+}
+.seccionAcordeon #acordeon .acordeonItem .acordeonContenido .cardServicio .cardHeader .beard5 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/imagenes/servicio_02_barberia_05.png");
+}
+.seccionAcordeon #acordeon .acordeonItem .acordeonContenido .cardServicio .cardHeader .beard6 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/imagenes/servicio_02_barberia_06.png");
+}
+.seccionAcordeon #acordeon .acordeonItem .acordeonContenido .cardServicio .cardHeader .hair1 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/imagenes/servicio_03_color_01.png");
+}
+.seccionAcordeon #acordeon .acordeonItem .acordeonContenido .cardServicio .cardHeader .hair2 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/imagenes/servicio_03_color_02.png");
+}
+.seccionAcordeon #acordeon .acordeonItem .acordeonContenido .cardServicio .cardHeader .hair3 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/imagenes/servicio_03_color_03.png");
+}
+.seccionAcordeon #acordeon .acordeonItem .acordeonContenido .cardServicio .cardHeader .hair4 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/imagenes/servicio_03_color_04.png");
+}
+.seccionAcordeon #acordeon .acordeonItem .acordeonContenido .cardServicio .cardHeader .experience1 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/imagenes/servicio_04_experiencias_01.png");
+}
+.seccionAcordeon #acordeon .acordeonItem .acordeonContenido .cardServicio .cardHeader .experience2 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/imagenes/servicio_04_experiencias_02.png");
+}
+.seccionAcordeon #acordeon .acordeonItem .acordeonContenido .cardServicio .cardHeader .experience3 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/imagenes/servicio_04_experiencias_03.png");
+}
+.seccionAcordeon #acordeon .acordeonItem .acordeonContenido .cardServicio .cardHeader .experience4 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/imagenes/servicio_04_experiencias_04.png");
+}
+.seccionAcordeon #acordeon .acordeonItem .acordeonContenido .cardServicio .cardDescripcion {
+  height: 66%;
+  max-width: 588px;
+  background-color: #E1E1E1;
+  padding: 2% 2% 2% 2%;
+}
+.seccionAcordeon #acordeon .acordeonItem .acordeonContenido .cardServicio .cardDescripcion .centrado {
+  text-align: center;
+}
+.seccionAcordeon #acordeon .acordeonItem .acordeonContenido .cardServicio .cardDescripcion .texto {
+  font-size: 18px;
+}
+
+/*# sourceMappingURL=style.css.map */

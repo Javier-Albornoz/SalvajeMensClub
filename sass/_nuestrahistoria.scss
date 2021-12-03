@@ -1,0 +1,101 @@
+.texto{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.textoNegrita{
+    font-weight: bold;
+}
+
+.nuestraHistoria{
+    h1{
+        color: #000;
+    }
+    .seccionVideo{
+        display: flex;
+        flex-direction: row;
+        .video{
+            width: 50%;
+        }
+        .textoVideo{
+            display: flex;
+            justify-content: center;
+            font-size: 2rem;
+            width: 50%;
+            padding: 2.5rem;
+            hr{
+                border: #000 1px solid;
+            }
+        }
+    }
+}
+.seccionImagen{
+    display: flex;
+    flex-direction: row;
+    .contenedorTexto{
+        padding: 2rem;
+        flex-direction: column;
+        font-size: 1rem;
+        .texto-1{
+            display: flex;
+            align-items: center;
+            height: 50%;
+            padding: 5%;
+        }
+        .texto-2{
+            display: flex;
+            align-items: center;
+            background-color: #000;
+            height: 50%;
+            padding: 5%;
+            color: #fff;
+        }
+    }
+}
+.seccionMapa{
+    .textoMapa{
+        padding: 7%;
+        font-size: 1.2rem;
+    }
+    .contenedorMapa{
+        padding: 7%;
+    }
+    .textoUbicacion{
+        font-size: 1.5rem;
+        padding: 4% 30% 4% 30%;
+        hr{
+            border: #000 1px solid;
+        }
+        .textoJoin{
+            p{
+                margin-bottom: 0rem;
+            }
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            hr{
+              width: 100%;  
+            }
+        }
+    }
+}
+.seccionInspiracion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    img{
+        width: 49%;
+    }
+    .textoInspiracion{
+        background-color: #000;
+        color: #fff;
+        width: 49%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+        text-align: center;
+        .textoNegrita{
+            font-size: 2.1rem;
+        }
+    }
+}

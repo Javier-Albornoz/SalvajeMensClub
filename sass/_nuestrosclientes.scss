@@ -1,0 +1,49 @@
+.nuestrosClientes{
+    display: flex;
+    flex-direction: column;
+}
+.cardsContainer{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+    max-width: 100%;
+
+}
+.cardClient{
+    display: flex;
+    flex-direction: column;
+    width: 283px;
+    height: 284px;
+    background-color: #ffffff;
+    border: 0.5px solid #000000;
+    border-radius: 10px;
+    justify-content: flex-start;
+
+    p{
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    h3{
+        font-family: 'Open Sans', sans-serif;
+        font-style: normal;
+        font-weight: 16px;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 16px;
+
+
+    }
+    .nameStar{
+        display: flex;
+        flex-direction: column;
+        padding-left: 3%;
+    }
+    .cardContent{
+        display: flex;
+        align-items: flex-start;
+        padding-left: 5%;
+    }
+}

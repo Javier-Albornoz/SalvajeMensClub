@@ -1,0 +1,270 @@
+.seccionImagenPortada{
+    img{
+        width: 100%;
+    }
+}
+
+.seccionAcordeon{
+    font-family: 'Open Sans', sans-serif;
+
+    .titulo{
+        font-size: 38px;
+        font-weight: bolder;
+        margin-top: 3%;
+    }
+    .texto{
+        font-size: 20px;
+        margin-top: 2%;
+    }
+    #acordeon{
+        .acordeonItem{
+            /*Imagenes de los acordeones*/
+            .headerImg1{
+                background-color: #242324;
+                background-image: url("/imagenes/servicio_01_nails.png");
+                background-repeat: no-repeat;
+            }
+            .headerImg2{
+                background-color: #242324;
+                background-image: url("/imagenes/servicio_02_barberia.png");
+                background-repeat: no-repeat;
+            }
+            .headerImg3{
+                background-color: #242324;
+                background-image: url("/imagenes/servicio_03_color.png");
+                background-repeat: no-repeat;
+            }
+            .headerImg4{
+                background-color: #242324;
+                background-image: url("/imagenes/servicio_04_experiencias.png");
+                background-repeat: no-repeat;
+            }
+
+            .acordeonHeader{
+                height: 192px;
+                width: 100%;
+                text-align: center;
+                color: #fff;
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 3%;
+            }
+            .acordeonContenido{
+                /*El display de la clase ".acoContenido" oculta las cards de las secciones*/
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                margin-bottom: 8rem;
+
+                .cardServicio{
+                    max-height: 376;
+                    max-width: 50%;
+                    margin-bottom: 2%;
+                    overflow: hidden;
+
+                    .cardHeader{
+                        .cardImage{
+                            width: 588px;
+                            height: 168px;
+                            
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            color: #fff;
+                        }
+
+                        /*Imagenes de las cards*/
+                        .nail1{
+                            background-image: 
+                            linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+                            url("/imagenes/servicio_01_nails_01.png");
+                        }
+
+                        .nail2{
+                            background-image: 
+                            linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+                            url("/imagenes/servicio_01_nails_02.png");
+                        }
+
+                        .nail3{
+                            background-image: 
+                            linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+                            url("/imagenes/servicio_01_nails_03.png");
+                        }
+
+                        .nail4{
+                            background-image: 
+                            linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+                            url("/imagenes/servicio_01_nails_04.png");
+                        }
+
+                        .nail5{
+                            background-image: 
+                            linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+                            url("/imagenes/servicio_01_nails_05.png");
+                        }
+
+                        .nail6{
+                            background-image: 
+                            linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+                            url("/imagenes/servicio_01_nails_06.png");
+                        }
+
+                        .nail7{
+                            background-image: 
+                            linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+                            url("/imagenes/servicio_01_nails_07.png");
+                        }
+
+                        .nail8{
+                            background-image: 
+                            linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+                            url("/imagenes/servicio_01_nails_08.png");
+                        }
+
+                        .nail8{
+                            background-image: 
+                            linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+                            url("/imagenes/servicio_01_nails_08.png");
+                        }
+
+                        .beard1{
+                            background-image: 
+                            linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+                            url("/imagenes/servicio_02_barberia_01.png");
+                        }
+
+                        .beard2{
+                            background-image: 
+                            linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+                            url("/imagenes/servicio_02_barberia_02.png");
+                        }
+
+                        .beard3{
+                            background-image: 
+                            linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+                            url("/imagenes/servicio_02_barberia_03.png");
+                        }
+
+                        .beard4{
+                            background-image: 
+                            linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+                            url("/imagenes/servicio_02_barberia_04.png");
+                        }
+
+                        .beard5{
+                            background-image: 
+                            linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+                            url("/imagenes/servicio_02_barberia_05.png");
+                        }
+
+                        .beard6{
+                            background-image: 
+                            linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+                            url("/imagenes/servicio_02_barberia_06.png");
+                        }
+
+                        .hair1{
+                            background-image: 
+                            linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+                            url("/imagenes/servicio_03_color_01.png");
+                        }
+
+                        .hair2{
+                            background-image: 
+                            linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+                            url("/imagenes/servicio_03_color_02.png");
+                        }
+
+                        .hair3{
+                            background-image: 
+                            linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+                            url("/imagenes/servicio_03_color_03.png");
+                        }
+
+                        .hair4{
+                            background-image: 
+                            linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+                            url("/imagenes/servicio_03_color_04.png");
+                        }
+
+                        .experience1{
+                            background-image: 
+                            linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+                            url("/imagenes/servicio_04_experiencias_01.png");
+                        }
+
+                        .experience2{
+                            background-image: 
+                            linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+                            url("/imagenes/servicio_04_experiencias_02.png");
+                        }
+
+                        .experience3{
+                            background-image: 
+                            linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+                            url("/imagenes/servicio_04_experiencias_03.png");
+                        }
+
+                        .experience4{
+                            background-image: 
+                            linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+                            url("/imagenes/servicio_04_experiencias_04.png");
+                        }
+                    }
+                    .cardDescripcion{
+                        height: 66%;
+                        max-width: 588px;
+                        background-color: #E1E1E1;
+                        padding: 2% 2% 2% 2%;
+
+                        .centrado{
+                            text-align: center;
+                        }
+
+                        .texto{
+                            font-size: 18px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    /*.accordion{
+        margin-top: 3%;
+        margin-bottom: 10%;
+        .accordion-item{
+            margin-bottom: 2%;
+            border: none;
+            .accordion-header{
+                
+                background-color: #242324;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                color: #fff;
+                height: 192px;
+                
+
+                p{
+                    width: 95%;
+                    text-align: center;
+                    cursor: pointer;
+                }
+
+                button{
+                    width: 5%;
+                    background-color: transparent;
+                    color: #fff;
+                }
+            }
+            .aco1{
+                background-image: url("/imagenes/servicio_01_nails.png");
+                background-repeat: no-repeat;
+            }
+        }
+    }*/
+}

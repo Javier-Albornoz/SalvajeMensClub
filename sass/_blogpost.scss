@@ -1,0 +1,70 @@
+.seccionPost{
+    border: none;
+    #post{
+        margin: 0% 20% 7.5% 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        color: #000;
+        .postTitulo{
+            display: flex;
+            justify-content: center;
+            h2{
+                font-family: 'Playfair Display', serif;
+                font-size: 38px;
+                font-weight: bold;
+                width: 80%;
+                text-align: center;
+                margin-top: 2%;
+            }
+        }
+        .postImagenPrincipal{
+            overflow: hidden;
+        }
+        .postTexto{
+            font-family: 'Playfair Display', serif;
+            font-size: 16px;
+        }
+        .postLetra::first-letter{
+            font-size: 38px;
+            text-transform: capitalize;
+        }
+        .postTextoDividido{
+            display: flex;
+            flex-direction: row;
+            img{
+                width: 50%;
+            }
+            .postTexto{
+                width: 50%;
+                margin-left: 5%;
+                display: flex;
+                align-items: center;
+            }
+        }
+        .postImagen{
+            overflow: hidden;
+        }
+        .postSubTitulo{
+            display: flex;
+            justify-content: flex-start;
+        }
+        .postTextoFinal{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            hr{
+                width: 70%;
+                border: #000 1px solid;
+            }
+            p{
+                font-family: 'Playfair Display', serif;
+                font-size: 20px;
+                font-weight: bold;
+                width: 50%;
+                text-align: center;
+            }
+        }
+    }
+}

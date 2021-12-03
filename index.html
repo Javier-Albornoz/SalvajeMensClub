@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salvaje Men's Club</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+      <!--navegable con enlaces de sus redes-->
+        <nav class="nav1"> 
+         <div class="enlacesRedes">
+            <a href="#"><img src="imagenes/whatsapp.png" alt="iconoWhatsap"></a>
+            <a href="#"><img src="imagenes/facebook.png" alt="iconoFacebook"></a>
+            <a href="#"><img src="imagenes/instagram.png" alt="iconoInstagram"></a>
+            <a href="#"><img src="imagenes/tiktok.png" alt="iconoTiktok"></a>
+            <a href="#"><img src="imagenes/pinterest.png" alt="iconoPinterest"></a>
+          </div>
+          <div class="mje">
+              <p>¿Necesitás inspiración para tu nuevo look? #SalvajeInspo</p>
+          </div>
+        </nav>
+        <!--barra navegadora-->
+        <nav class="navbar navbar-expand-sm  navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html"><img src="imagenes/salvajeLogo-White_3.png" alt="logo Salvaje Men`s Club"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse nav2" id="navbarNavDropdown">
+                <ul class="navbar-nav d-flex justify-content-end">
+                  <li class="nav-item">
+                    <a class="nav-link active me-5" aria-current="page" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link me-5" href="servicios.html">Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link me-5" href="blog.html">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link me-5" href="nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link me-5" href="contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <!--seccion de carrousel-->
+    <section class="carrousel imagenes">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imagenes/carrousel1.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/carrousel1.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/carrousel1.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!--fin secicion carrousel-->
+
+    <!--seccion nuestro servicios-->
+    <div id="nuestosServicios" class="container secServicios">
+      <h2 class="pt-4 pb-4">Conocé nuestros servicios</h2>
+      <div class="servicios">
+        <div class="serv"><img src="imagenes/servicios_1.png" alt="corte de barba"><p>Barbería</p></div>
+        <div class="serv"><img src="imagenes/servicios_2.png" alt="nails"><p>Nails</p></div>
+        <div class="serv"><img src="imagenes/servicios_3.png" alt="coloracion de cabello"><p>Color</p></div>
+        <div class="serv"><img src="imagenes/servicios_4.png" alt="experiencias"><p>Experiencias</p></div>
+      </div>
+    </div>
+
+    <!--seccion sobre nosotros-->
+    <div id="nosotros" class="container">
+      <h2 class="pt-4 pb-4 ">Sobre Nosotros</h2>
+      <div class="contenedor contenedorNosotros ">
+        <div class="contenedorImg"><img src="imagenes/nosotros_1.png" alt="imagenes de uno de los locales"></div>
+        <div class="contenedorNos">
+          <p class="pPresentacion">Nos inspira <strong>romper con estereotipos</strong> de masculinidad, por eso creamos Salvaje Men's Club, el primer store de uñas para hombres de Latinoamérica.<br><br>
+
+            Viví una <strong>#ExperienciaSalvaje</strong> con nuestros servicios de <strong>pelo, barba, cejas, color y más.</strong>
+            <br><br>
+            ¿Querés saber más sobre nosotros?
+          </p>
+          <button type="button" class="btn btn-dark btn1"><a href="nosotros.html">Conócenos</a></button>
+        </div>
+      </div>
+    </div>
+    
+    <!--seccion API Pinterest-->
+    <!--es solo una imagen de la appi inyectada-->
+    <div class="pt-5  container">
+      <h2 class="pt-4 pb-4">#SalvajeInspo</h2>
+      <img src="imagenes/API Pinterest.png" alt="imagenes seccion pinterest " width="100%">
+    </div>
+
+        <!--seccion Nuestros clientes-->
+      <section class="nuestrosClientes container pt-5 pb-5">
+        <h2 class="pt-4 pb-4 container">Nuestros Clientes</h2>
+        <div class="container cardsContainer pt-5" >
+          <div> 
+            <div class="cardClient p-4">
+              <div class="cardContent ">
+                <div>
+                <img src="imagenes/cliente_1.png" alt="foto card 1">
+                </div>
+                <div class="nameStar">
+                <h3>Marcos Aranda</h3><img src="imagenes/Stars.png" alt="foto perfil cliente"></div>
+                </div>
+              <div></div><br>
+              <p>
+                “Son impecables! Me encantó el lugar, 
+                hacía mucho que quería hacerme nail art
+                 por todo lo que vi en su instagram. Y 
+                 cuando Azul terminó con el diseño de uñas, 
+                 superó mis expectactivas! Desde el momento que 
+                 sacas el turno por Whatsapp hasta que llegas,
+                  están en todos los detalles. El lugar es hermoso, 
+                  la atención un 10...”
+              </p>
+            </div>
+          </div>
+          <div class="cardClient p-4">
+            <div class="cardContent ">
+              <div>
+              <img src="imagenes/cliente_2.png" alt="foto card 1">
+              </div>
+              <div class="nameStar">
+              <h3>Matías Dominguez</h3><img src="imagenes/Stars.png" alt="foto perfil cliente"></div>
+              </div>
+            <br>
+            <p>
+              “Salvaje propone una experiencia distinta,  cubre un espacio que hacia 
+              falta en todo lo que es experimentación con los cánones de belleza masculina.
+               Lejos de lo convencional ofrece a gusto del visitante una serie de productos
+                que incluso desde lo lúdico llaman la atención....”
+            </p>
+          </div>
+          <div class="cardClient p-4">
+            <div class="cardContent ">
+              <div>
+              <img src="imagenes/cliente_3.png" alt="foto card 1">
+              </div>
+              <div class="nameStar">
+              <h3>Jorge Ariel Navarro</h3><img src="imagenes/Stars.png" alt="foto perfil cliente"></div>
+              </div>
+            <br>
+            <p>
+              “Increíble! Me sentí muy cómodo, quedé muy conforme con el laburo.. 
+              cumplen con todos los protocolos... muy buena onda.. hasta la música
+               que pasan me gusto!”
+            </p>
+          </div>
+          <div class="cardClient p-4">
+            <div class="cardContent ">
+              <div>
+              <img src="imagenes/cliente_4.png" alt="foto card 1">
+              </div>
+              <div class="nameStar">
+              <h3>Marcos Aranda</h3><img src="imagenes/Stars.png" alt="foto perfil cliente"></div>
+              </div>
+            <br>
+            <p>
+              “Salvaje propone una experiencia distinta,  cubre un espacio que hacia 
+              falta en todo lo que es experimentación con los cánones de belleza masculina.
+               Lejos de lo convencional ofrece a gusto del visitante una serie de productos
+                que incluso desde lo lúdico llaman la atención....”
+            </p>
+          </div>
+        </div>
+       </section>
+
+    <!--Footer-->
+    <section class="footer d-flex flex-column">
+      <div class="footerContainer container mt-5">
+        <div class="w-25">
+          <p>
+            Thames 1876, 1er piso, CABA, Argentina <br>
+            (+54) 9 11 3009 - 7366 <br>
+            info@salvajemensclub.com <br>
+          </p>
+          <a href="#">Trabajá con nosotros</a>
+        </div>
+        <div class="footerInput">
+          <div class="input-group input-group-lg ">
+            <span class="input-group-text inputSpam">Suscribite al newsletter</span>
+            <input type="text" aria-label="First name" class="form-control">
+          </div>
+        </div>
+        <div class="enlacesRedes w-25">
+          <ul class="redes">
+            <li class="red"><a href="#"><img src="imagenes/whatsapp.png" alt="iconoWhatsap"></a></li>
+            <li class="red"><a href="#"><img src="imagenes/facebook.png" alt="iconoFacebook"></a></li>
+            <li class="red"><a href="#"><img src="imagenes/instagram.png" alt="iconoInstagram"></a></li>
+            <li class="red"><a href="#"><img src="imagenes/tiktok.png" alt="iconoTiktok"></a></li>
+            <li class="red"><a href="#"><img src="imagenes/pinterest.png" alt="iconoPinterest"></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footerBrand d-flex flex-row">
+        <div class="brandLogo">
+          <img src="imagenes/salvajeLogo-White_1.png" alt="logo salvaje mens club" class="mt-4" width="187px">
+          <p class="mt-4">Copyright 2021. Salvaje Men’s Club</p>
+        </div>
+        <div>
+          <button class="btnReserva">Reservá tu turno <img src="imagenes/image.png" alt="icono de whatsapp"></button>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>   
+</body>
+</html>

@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salvaje Men's Club</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+      <!--navegable con enlaces de sus redes-->
+        <nav class="nav1"> 
+         <div class="enlacesRedes">
+            <a href="#"><img src="imagenes/whatsapp.png" alt="iconoWhatsap"></a>
+            <a href="#"><img src="imagenes/facebook.png" alt="iconoFacebook"></a>
+            <a href="#"><img src="imagenes/instagram.png" alt="iconoInstagram"></a>
+            <a href="#"><img src="imagenes/tiktok.png" alt="iconoTiktok"></a>
+            <a href="#"><img src="imagenes/pinterest.png" alt="iconoPinterest"></a>
+          </div>
+          <div class="mje">
+              <p>¿Necesitás inspiración para tu nuevo look? #SalvajeInspo</p>
+          </div>
+        </nav>
+        <!--barra navegadora-->
+        <nav class="navbar navbar-expand-sm  navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html"><img src="imagenes/salvajeLogo-White_3.png" alt="logo Salvaje Men`s Club"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse nav2" id="navbarNavDropdown">
+                <ul class="navbar-nav d-flex justify-content-end">
+                  <li class="nav-item">
+                    <a class="nav-link me-5" aria-current="page" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link me-5" href="servicios.html">Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active me-5" href="blog.html">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link me-5" href="nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link me-5" href="contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+
+        <!--Barra de busqueda
+        Barra de busqueda
+        Intento 1
+        <nav class="d-flex flex-wrap justify-content-center py-3 mb-4 container">
+            <div class="container-fluid">
+                <h1 class="w-25">Salvaje Blog</h1>
+                <form class="w-50">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                </form>
+                <div class="filtrosNav d-flex flex-row justify-content-center">
+                    <button>Cuidados</button>
+                    <button>Hairstyle</button>
+                    <button>Menswear</button>
+                    <button>Cooltura</button>
+                </div>
+            </div>
+        </nav>
+
+        Intento 2
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <h1 class="navbar-brand">Salvaje Blog</h1>
+                <form class="w-50">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                </form>
+                <div class="filtrosNav d-flex flex-row justify-content-center">
+                    <button>Cuidados</button>
+                    <button>Hairstyle</button>
+                    <button>Menswear</button>
+                    <button>Cooltura</button>
+                </div>
+              </div>
+            </div>
+          </nav>
+        -->
+    </header>
+
+    <section class="seccionTitulo container">
+        <h1 class="tituloPrincipal mt-5 mb-4 d-flex justify-content-center">Salvaje Blog</h1>
+        <hr>
+        <p class="d-flex justify-content-center">Enterate de las nuevas tendencias en male grooming #SalvajeInspo</p>
+        <hr>        
+    </section>
+
+    <section class="seccionBuscador container">
+        <div class="buscador">
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            </form>
+            <div class="filtros d-flex justify-content-center">
+                <button>Cuidados</button>
+                <button>Hairstyle</button>
+                <button>Menswear</button>
+                <button>Cooltura</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="seccionCardsPost container">
+        <div id="cards">
+            <div class="card">
+                <div class="cardFoto">
+                    <img src="imagenes/card_blog_1.png" alt="">
+                </div>
+                <div class="cardFooter">
+                    <div class="cardDescripcion">
+                        <h2 class="cardTitulo">Spoiler! Estas son las tendencias de pelo en 2021</h2>
+                        <p class="cardFecha">Marzo 20, 2021</p>
+                        <p class="cardResumen m-0">
+                            ¿Qué son los cortes urbanos? Undercut es para 
+                            mi? ¿Flequillo sí o no?
+                        </p>
+                    </div>
+                    <a class="cardBtn" href="blogPost.html">Leer más</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="cardFoto">
+                    <img src="imagenes/card_blog_2.png" alt="">
+                </div>
+                <div class="cardFooter">
+                    <div class="cardDescripcion">
+                        <h2 class="cardTitulo">¡Develamos el misterio! ¿Cuántas veces hay que lavarse el pelo?</h2>
+                        <p class="cardFecha">Diciembre 10, 2021</p>
+                        <p class="cardResumen m-0">
+                            Esta es una pregunta que nos hacen muchas veces 
+                            en el salón, y te preparamos esta nota para que 
+                            puedas llevarte toda la info que ne...
+                        </p>
+                    </div>
+                    <a class="cardBtn" href="blogPost.html">Leer más</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="cardFoto">
+                    <img src="imagenes/card_blog_3.png" alt="">
+                </div>
+                <div class="cardFooter">
+                    <div class="cardDescripcion">
+                        <h2 class="cardTitulo">¿Qué corte de pelo conviene hacerme según mi forma facial?</h2>
+                        <p class="cardFecha">Marzo 7, 2021</p>
+                        <p class="cardResumen m-0">
+                            Muchas veces nos agarra pánico previo al corte. 
+                            Leé estas recomendaciones que seguro te van a ayudar!
+                        </p>
+                    </div>
+                    <a class="cardBtn" href="blogPost.html">Leer más</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="cardFoto">
+                    <img src="imagenes/card_blog_2.png" alt="">
+                </div>
+                <div class="cardFooter">
+                    <div class="cardDescripcion">
+                        <h2 class="cardTitulo">¡Develamos el misterio! ¿Cuántas veces hay que lavarse el pelo?</h2>
+                        <p class="cardFecha">Diciembre 10, 2021</p>
+                        <p class="cardResumen m-0">
+                            Esta es una pregunta que nos hacen muchas veces 
+                            en el salón, y te preparamos esta nota para que 
+                            puedas llevarte toda la info que ne...
+                        </p>
+                    </div>
+                    <a class="cardBtn" href="blogPost.html">Leer más</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="cardFoto">
+                    <img src="imagenes/card_blog_1.png" alt="">
+                </div>
+                <div class="cardFooter">
+                    <div class="cardDescripcion">
+                        <h2 class="cardTitulo">Spoiler! Estas son las tendencias de pelo en 2021</h2>
+                        <p class="cardFecha">Marzo 20, 2021</p>
+                        <p class="cardResumen m-0">¿Qué son los cortes urbanos? Undercut es para mi? ¿Flequillo sí o no?</p>
+                    </div>
+                    <a class="cardBtn" href="blogPost.html">Leer más</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="cardFoto">
+                    <img src="imagenes/card_blog_3.png" alt="">
+                </div>
+                <div class="cardFooter">
+                    <div class="cardDescripcion">
+                        <h2 class="cardTitulo">¿Qué corte de pelo conviene hacerme según mi forma facial?</h2>
+                        <p class="cardFecha">Marzo 7, 2021</p>
+                        <p class="cardResumen m-0">
+                            Muchas veces nos agarra pánico previo al corte. 
+                            Leé estas recomendaciones que seguro te van a ayudar!
+                        </p>
+                    </div>
+                    <a class="cardBtn" href="blogPost.html">Leer más</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+    <section class="footer d-flex flex-column">
+        <div class="footerContainer container mt-5">
+          <div class="w-25">
+            <p>
+              Thames 1876, 1er piso, CABA, Argentina <br>
+              (+54) 9 11 3009 - 7366 <br>
+              info@salvajemensclub.com <br>
+            </p>
+            <a href="#">Trabajá con nosotros</a>
+          </div>
+          <div class="footerInput">
+            <div class="input-group input-group-lg ">
+              <span class="input-group-text inputSpam">Suscribite al newsletter</span>
+              <input type="text" aria-label="First name" class="form-control">
+            </div>
+          </div>
+          <div class="enlacesRedes w-25">
+            <ul class="redes">
+              <li class="red"><a href="#"><img src="imagenes/whatsapp.png" alt="iconoWhatsap"></a></li>
+              <li class="red"><a href="#"><img src="imagenes/facebook.png" alt="iconoFacebook"></a></li>
+              <li class="red"><a href="#"><img src="imagenes/instagram.png" alt="iconoInstagram"></a></li>
+              <li class="red"><a href="#"><img src="imagenes/tiktok.png" alt="iconoTiktok"></a></li>
+              <li class="red"><a href="#"><img src="imagenes/pinterest.png" alt="iconoPinterest"></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footerBrand d-flex flex-row">
+          <div class="brandLogo">
+            <img src="imagenes/salvajeLogo-White_1.png" alt="logo salvaje mens club" class="mt-4" width="187px">
+            <p class="mt-4">Copyright 2021. Salvaje Men’s Club</p>
+          </div>
+          <div>
+            <button class="btnReserva">Reservá tu turno <img src="imagenes/image.png" alt="icono de whatsapp"></button>
+          </div>
+        </div>
+    </section>
+  
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>

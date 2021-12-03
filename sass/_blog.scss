@@ -1,0 +1,123 @@
+
+.navBuscador{
+    .navBrand{
+        padding-top: 0.3125rem;
+        padding-bottom: 0.3125rem;
+        margin-right: 1rem;
+        font-size: 1.25rem;
+        text-decoration: none;
+        white-space: nowrap;
+        padding-left: 100px;
+        width: 50%;
+    }
+}
+
+.filtrosNav{
+    button{
+        background-color: #C4C4C4;
+        border: none;
+        border-radius: 10px;
+        font-size: 10px;
+        font-weight: bold;
+        margin: 0% 1%;
+        padding: 6px 8px 6px 8px;
+    }
+}
+
+.seccionTitulo{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 38px;
+    color: #000;
+    .tituloPrincipal{
+        font-weight: bold;
+    }
+    hr{
+        border: #000 1px solid;
+    }
+    p{
+        font-family: 'Playfair Display', serif;
+        font-size: 16px;
+    }
+}
+
+.seccionBuscador{
+    font-family: 'Open Sans', sans-serif;
+    margin: 1%;
+    .buscador{
+        margin: 0% 25%;
+        .filtros{
+            padding: 4% 0% 4% 0%;;
+            button{
+                background-color: #C4C4C4;
+                border: none;
+                border-radius: 10px;
+                font-size: 10px;
+                font-weight: bold;
+                margin: 0% 1%;
+                padding: 6px 8px 6px 8px;
+                
+            }
+        }
+    }
+}
+
+.seccionCardsPost{
+    border: none;
+    #cards{
+        margin: 0% 10% 15% 10%;
+        display: flex;
+        flex-wrap: wrap;
+        .card{
+            border: none;
+            width: 486px;
+            height: 684px;
+            margin: 2% 1% 2% 1%;
+            overflow: hidden;
+            .cardFoto{
+                height: 60%;
+                overflow: hidden;
+                .img{
+                    height: 100%;
+                }
+            }
+            .cardFooter{
+                height: 40%;
+                margin: 0%;
+                display: flex;
+                flex-direction: column;
+                align-items: end;
+                .cardDescripcion{
+                    margin: 5% 5% 0% 5%;
+                    height: 75%;
+                    .cardTitulo{
+                        font-family: 'Playfair Display', serif;
+                        font-size: 24px;
+                        font-weight: bold;
+                    }
+                    .cardFecha{
+                        font-family: 'Open Sans', sans-serif;
+                        font-size: 14px;
+                    }
+                    .cardResumen{
+                        font-family: 'Playfair Display', serif;
+                        font-size: 16px;
+                    }
+                }
+                .cardBtn{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-decoration: none;
+                    width: 180px;
+                    height: 44px;
+                    border: none;
+                    border-radius: 10px;
+                    background-color: #000;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+
